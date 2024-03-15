@@ -1,4 +1,0 @@
-URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
-http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.17.1.5--20200901000000,2020-09-01T00:00:00,active,"2.16.840.1.113883.2.4.3.11.60.40.2.17.1.5",ZorgverlenerRolCodelijst,ZorgverlenerRolCodelijst,"ZorgverlenerRolCodelijst","StructureDefinition/KT2CareTeam","THO (V3),SCT"
-http://vzvz.nl/fhir/ValueSet/audit-event-type,0.8,draft,,audit-event-type ValueSet,audit-event-type ValueSet,"audit-event-type ValueSet","StructureDefinition/KT2AuditEvent","THO,DICOM"
-http://vzvz.nl/fhir/ValueSet/participation-role-type,0.8,draft,,NlVzvzParticipationRoleType,NlVzvzParticipationRoleType,"This FHIR value set is a subset of the http://hl7.org/fhir/ValueSet/participation-role-type value set, containing only the codes used in VZVZ","StructureDefinition/KT2AuditEvent","THO (V3),DICOM"

@@ -1,0 +1,205 @@
+[
+  {
+    "id" : "kt2",
+    "type" : "ImplementationGuide",
+    "url" : "http://koppeltaal.nl/fhir/ImplementationGuide/kt2",
+    "version" : "0.8",
+    "name" : "Koppeltaal Implementation Guide"
+  },
+  {
+    "id" : "koppeltaal-ClientID",
+    "type" : "NamingSystem",
+    "url" : "http://koppeltaal.nl/fhir/NamingSystem/koppeltaal-ClientID",
+    "version" : "0.8",
+    "name" : "KoppeltaalClientID"
+  },
+  {
+    "id" : "koppeltaal-TaskIdentifier",
+    "type" : "NamingSystem",
+    "url" : "http://koppeltaal.nl/fhir/NamingSystem/koppeltaal-TaskIdentifier",
+    "version" : "0.8",
+    "name" : "KoppeltaalTaskIdentifier"
+  },
+  {
+    "id" : "search-correlation-id",
+    "type" : "SearchParameter",
+    "url" : "http://koppeltaal.nl/fhir/SearchParameter/correlation-id",
+    "version" : "0.8",
+    "name" : "KT2_SearchCorrelationId"
+  },
+  {
+    "id" : "search-publisherId-extension",
+    "type" : "SearchParameter",
+    "url" : "http://koppeltaal.nl/fhir/SearchParameter/publisherId-extension",
+    "version" : "0.8",
+    "name" : "KT2_SearchPublisherId"
+  },
+  {
+    "id" : "search-request-id",
+    "type" : "SearchParameter",
+    "url" : "http://koppeltaal.nl/fhir/SearchParameter/request-id",
+    "version" : "0.8",
+    "name" : "KT2_SearchRequestId"
+  },
+  {
+    "id" : "search-resource-origin-extension",
+    "type" : "SearchParameter",
+    "url" : "http://koppeltaal.nl/fhir/SearchParameter/resource-origin-extension",
+    "version" : "0.8",
+    "name" : "KT2_SearchResourceOrigin"
+  },
+  {
+    "id" : "search-task-instantiates",
+    "type" : "SearchParameter",
+    "url" : "http://koppeltaal.nl/fhir/SearchParameter/task-instantiates",
+    "version" : "0.8",
+    "name" : "KT2_SearchInstantiates"
+  },
+  {
+    "id" : "search-task-instantiates-canonical",
+    "type" : "SearchParameter",
+    "url" : "http://koppeltaal.nl/fhir/SearchParameter/task-instantiates-canonical",
+    "version" : "0.8",
+    "name" : "KT2_SearchInstantiatesCanonical"
+  },
+  {
+    "id" : "search-trace-id",
+    "type" : "SearchParameter",
+    "url" : "http://koppeltaal.nl/fhir/SearchParameter/trace-id",
+    "version" : "0.8",
+    "name" : "KT2_SearchTraceId"
+  },
+  {
+    "id" : "KT2ActivityDefinition",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/KT2ActivityDefinition",
+    "version" : "0.8",
+    "name" : "KT2_ActivityDefinition"
+  },
+  {
+    "id" : "KT2AuditEvent",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/KT2AuditEvent",
+    "version" : "0.8",
+    "name" : "KT2_AuditEvent"
+  },
+  {
+    "id" : "KT2CareTeam",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/KT2CareTeam",
+    "version" : "0.8",
+    "name" : "KT2_CareTeam"
+  },
+  {
+    "id" : "KT2Device",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/KT2Device",
+    "version" : "0.8",
+    "name" : "KT2_Device"
+  },
+  {
+    "id" : "KT2Endpoint",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/KT2Endpoint",
+    "version" : "0.8",
+    "name" : "KT2_Endpoint"
+  },
+  {
+    "id" : "KT2EndpointExtension",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/KT2EndpointExtension",
+    "version" : "0.8",
+    "name" : "KT2_EndpointExtension"
+  },
+  {
+    "id" : "KT2Organization",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/KT2Organization",
+    "version" : "0.8",
+    "name" : "KT2_Organization"
+  },
+  {
+    "id" : "KT2Patient",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/KT2Patient",
+    "version" : "0.8",
+    "name" : "KT2_Patient"
+  },
+  {
+    "id" : "KT2Practitioner",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/KT2Practitioner",
+    "version" : "0.8",
+    "name" : "KT2_Practitioner"
+  },
+  {
+    "id" : "KT2PublisherId",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/KT2PublisherId",
+    "version" : "0.8",
+    "name" : "KT2_PublisherId"
+  },
+  {
+    "id" : "KT2Subscription",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/KT2Subscription",
+    "version" : "0.8",
+    "name" : "KT2_Subscription"
+  },
+  {
+    "id" : "KT2Task",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/KT2Task",
+    "version" : "0.8",
+    "name" : "KT2_Task"
+  },
+  {
+    "id" : "correlation-id",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/correlation-id",
+    "version" : "0.8",
+    "name" : "KT2_CorrelationId"
+  },
+  {
+    "id" : "request-id",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/request-id",
+    "version" : "0.8",
+    "name" : "KT2_RequestId"
+  },
+  {
+    "id" : "resource-origin",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/resource-origin",
+    "version" : "0.8",
+    "name" : "KT2_ResourceOrigin"
+  },
+  {
+    "id" : "trace-id",
+    "type" : "StructureDefinition",
+    "url" : "http://koppeltaal.nl/fhir/StructureDefinition/trace-id",
+    "version" : "0.8",
+    "name" : "KT2_TraceId"
+  },
+  {
+    "id" : "instantiates",
+    "type" : "StructureDefinition",
+    "url" : "http://vzvz.nl/fhir/StructureDefinition/instantiates",
+    "version" : "0.8",
+    "name" : "Instantiates"
+  },
+  {
+    "id" : "valueset-audit-event-type",
+    "type" : "ValueSet",
+    "url" : "http://vzvz.nl/fhir/ValueSet/audit-event-type",
+    "version" : "0.8",
+    "name" : "audit-event-type ValueSet"
+  },
+  {
+    "id" : "participation-role-type",
+    "type" : "ValueSet",
+    "url" : "http://vzvz.nl/fhir/ValueSet/participation-role-type",
+    "version" : "0.8",
+    "name" : "NlVzvzParticipationRoleType"
+  }
+]

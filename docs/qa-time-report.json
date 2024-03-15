@@ -1,0 +1,1475 @@
+{
+  "date" : "Fri, 15 Mar, 2024 14:00:54 +0100",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/input/ImplementationGuide.xml",
+      "size" : 917,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 21
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 30,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 95
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 367
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 38,
+          "length" : 150
+        },
+        {
+          "activity" : "generate2",
+          "start" : 47,
+          "length" : 128
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 85,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/KT2ActivityDefinition.xml",
+      "size" : 8866,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 40
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 27
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 28,
+          "length" : 88
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 85
+        },
+        {
+          "activity" : "validate",
+          "start" : 32,
+          "length" : 1145
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 38,
+          "length" : 517
+        },
+        {
+          "activity" : "generate2",
+          "start" : 47,
+          "length" : 1912
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 85,
+          "length" : 10
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 103,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/KT2AuditEvent.xml",
+      "size" : 6660,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 19
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 17
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 136
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 72
+        },
+        {
+          "activity" : "validate",
+          "start" : 33,
+          "length" : 699
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 39,
+          "length" : 729
+        },
+        {
+          "activity" : "generate2",
+          "start" : 49,
+          "length" : 1238
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 85,
+          "length" : 9
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 103,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/KT2CareTeam.xml",
+      "size" : 5533,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 16
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 12
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 234
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 113
+        },
+        {
+          "activity" : "validate",
+          "start" : 33,
+          "length" : 555
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 39,
+          "length" : 523
+        },
+        {
+          "activity" : "generate2",
+          "start" : 50,
+          "length" : 745
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 85,
+          "length" : 8
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 103,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/KT2Device.xml",
+      "size" : 5441,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 18
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 16
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 83
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 30,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 38
+        },
+        {
+          "activity" : "validate",
+          "start" : 34,
+          "length" : 445
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 40,
+          "length" : 421
+        },
+        {
+          "activity" : "generate2",
+          "start" : 51,
+          "length" : 656
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 8
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 103,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/KT2Endpoint.xml",
+      "size" : 2869,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 11
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 34
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 232
+        },
+        {
+          "activity" : "validate",
+          "start" : 34,
+          "length" : 145
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 40,
+          "length" : 251
+        },
+        {
+          "activity" : "generate2",
+          "start" : 51,
+          "length" : 294
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/KT2Organization.xml",
+      "size" : 3260,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 11
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 45
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 25
+        },
+        {
+          "activity" : "validate",
+          "start" : 35,
+          "length" : 232
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 40,
+          "length" : 368
+        },
+        {
+          "activity" : "generate2",
+          "start" : 52,
+          "length" : 746
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/KT2Patient.xml",
+      "size" : 9612,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 19
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 10
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 174
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 84
+        },
+        {
+          "activity" : "validate",
+          "start" : 35,
+          "length" : 1056
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 41,
+          "length" : 1112
+        },
+        {
+          "activity" : "generate2",
+          "start" : 52,
+          "length" : 2240
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 24
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 103,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/KT2Practitioner.xml",
+      "size" : 9228,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 18
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 11
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 54
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 55
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 484
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 42,
+          "length" : 594
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1112
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 15
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 103,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/KT2Subscription.xml",
+      "size" : 2669,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 10
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 34
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 17
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 139
+        },
+        {
+          "activity" : "generate1",
+          "start" : 43,
+          "length" : 180
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 198
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 3
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 103,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 103,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/KT2Task.xml",
+      "size" : 6855,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 14
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 9
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 60
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 33
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 308
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 37,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 43,
+          "length" : 477
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 363
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-KT2CorrelationId.xml",
+      "size" : 1374,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 16
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 13
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 23
+        },
+        {
+          "activity" : "generate1",
+          "start" : 43,
+          "length" : 89
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 91
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-KT2Endpoint.xml",
+      "size" : 1634,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 11
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 17
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 24
+        },
+        {
+          "activity" : "generate1",
+          "start" : 43,
+          "length" : 202
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 85
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-KT2PublisherId.xml",
+      "size" : 1753,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 17
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 18
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 24
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 137
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 85
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-KT2RequestId.xml",
+      "size" : 1358,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 10
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 15
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 25
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 109
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 79
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-KT2ResourceOrigin.xml",
+      "size" : 4244,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 29,
+          "length" : 14
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 12
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 27
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 98
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 112
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 103,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-KT2TaskInstantiates.xml",
+      "size" : 1302,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 7
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 30,
+          "length" : 17
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 18
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 28
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 76
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 91
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-KT2TraceId.xml",
+      "size" : 1445,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 30,
+          "length" : 16
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 20
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 32
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 72
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 90
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/namingsystem-koppeltaal-client-id.xml",
+      "size" : 713,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 23
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 31,
+          "length" : 102
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 28
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/namingsystem-koppeltaal-taskidentifier.json",
+      "size" : 677,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 15
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 31,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 31,
+          "length" : 15
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 33
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 9
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/nl-vzvz-agent-participation-role-type.xml",
+      "size" : 1842,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 9
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 31,
+          "length" : 269
+        },
+        {
+          "activity" : "validate",
+          "start" : 31,
+          "length" : 582
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 39
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 6943
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/nl-vzvz-audit-event-type.xml",
+      "size" : 2082,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 8
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 31,
+          "length" : 13
+        },
+        {
+          "activity" : "validate",
+          "start" : 32,
+          "length" : 40
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 41
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 124
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/search-KT2Task.instantiates-canonical.xml",
+      "size" : 1175,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 9
+        },
+        {
+          "activity" : "scan",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 19
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 31,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 11
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 35
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/search-ext-KT2CorrelationId.xml",
+      "size" : 1074,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 8
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 31,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 29
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/search-ext-KT2PublisherId.xml",
+      "size" : 1179,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 31,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 29
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/search-ext-KT2RequestId.xml",
+      "size" : 1046,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 8
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 31,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 28
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 9
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/search-ext-KT2ResourceOrigin.xml",
+      "size" : 2235,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 9
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 31,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 48
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 38
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/search-ext-KT2TaskInstantiates.xml",
+      "size" : 1155,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 7
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "scan",
+          "start" : 28,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 30,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 31,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 36
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 9
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 86,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/search-ext-KT2TraceId.xml",
+      "size" : 1033,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 28,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 28,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 31,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 33
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 9
+        }
+      ]
+    }
+  ]
+}

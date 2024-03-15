@@ -1,0 +1,262 @@
+{
+  "package": "kt2",
+  "version": "0.8",
+  "fhirVersion": "4.0.1",
+  "extensions": [
+    {
+      "url": "http://koppeltaal.nl/fhir/StructureDefinition/KT2EndpointExtension",
+      "title": "KT2_EndpointExtension",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://koppeltaal.nl/fhir/StructureDefinition/KT2PublisherId",
+      "title": "KT2_PublisherId",
+      "types": [
+        "id"
+      ]
+    },
+    {
+      "url": "http://koppeltaal.nl/fhir/StructureDefinition/correlation-id",
+      "title": "KT2_CorrelationId",
+      "types": [
+        "id"
+      ]
+    },
+    {
+      "url": "http://koppeltaal.nl/fhir/StructureDefinition/request-id",
+      "title": "KT2_RequestId",
+      "types": [
+        "id"
+      ]
+    },
+    {
+      "url": "http://koppeltaal.nl/fhir/StructureDefinition/resource-origin",
+      "title": "KT2_ResourceOrigin",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://koppeltaal.nl/fhir/StructureDefinition/trace-id",
+      "title": "KT2_TraceId",
+      "types": [
+        "id"
+      ]
+    },
+    {
+      "url": "http://vzvz.nl/fhir/StructureDefinition/instantiates",
+      "title": "Instantiates",
+      "types": [
+        "Reference"
+      ]
+    }
+  ],
+  "profiles": {
+    "ActivityDefinition": [
+      {
+        "url": "http://koppeltaal.nl/fhir/StructureDefinition/KT2ActivityDefinition",
+        "title": "KT2_ActivityDefinition"
+      }
+    ],
+    "AuditEvent": [
+      {
+        "url": "http://koppeltaal.nl/fhir/StructureDefinition/KT2AuditEvent",
+        "title": "KT2_AuditEvent"
+      }
+    ],
+    "CareTeam": [
+      {
+        "url": "http://koppeltaal.nl/fhir/StructureDefinition/KT2CareTeam",
+        "title": "KT2_CareTeam"
+      }
+    ],
+    "Device": [
+      {
+        "url": "http://koppeltaal.nl/fhir/StructureDefinition/KT2Device",
+        "title": "KT2_Device"
+      }
+    ],
+    "Endpoint": [
+      {
+        "url": "http://koppeltaal.nl/fhir/StructureDefinition/KT2Endpoint",
+        "title": "KT2_Endpoint"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "http://koppeltaal.nl/fhir/StructureDefinition/KT2Organization",
+        "title": "KT2_Organization"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "http://koppeltaal.nl/fhir/StructureDefinition/KT2Patient",
+        "title": "KT2_Patient"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "http://koppeltaal.nl/fhir/StructureDefinition/KT2Practitioner",
+        "title": "KT2_Practitioner"
+      }
+    ],
+    "Subscription": [
+      {
+        "url": "http://koppeltaal.nl/fhir/StructureDefinition/KT2Subscription",
+        "title": "KT2_Subscription"
+      }
+    ],
+    "Task": [
+      {
+        "url": "http://koppeltaal.nl/fhir/StructureDefinition/KT2Task",
+        "title": "KT2_Task"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url": [
+      "NamingSystem"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version": [
+      "NamingSystem"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order": [
+      "Patient.name",
+      "Practitioner.name"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/humanname-own-name": [
+      "Patient.name.family",
+      "Practitioner.name.family"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix": [
+      "Patient.name.family",
+      "Practitioner.name.family"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/humanname-partner-name": [
+      "Patient.name.family",
+      "Practitioner.name.family"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/humanname-partner-prefix": [
+      "Patient.name.family",
+      "Practitioner.name.family"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator": [
+      "Patient.address.line"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-buildingNumberSuffix": [
+      "Patient.address.line"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber": [
+      "Patient.address.line"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName": [
+      "Patient.address.line"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-unitID": [
+      "Patient.address.line"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/iso21090-EN-qualifier": [
+      "Patient.name.given",
+      "Practitioner.name.given"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-nationality": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-proficiency": [
+      "Patient.communication"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-relatedPerson": [
+      "Patient.contact"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod": [
+      "ValueSet"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://koppeltaal.nl/fhir/StructureDefinition/KT2EndpointExtension": [
+      "ActivityDefinition"
+    ],
+    "http://koppeltaal.nl/fhir/StructureDefinition/KT2PublisherId": [
+      "ActivityDefinition"
+    ],
+    "http://koppeltaal.nl/fhir/StructureDefinition/correlation-id": [
+      "AuditEvent"
+    ],
+    "http://koppeltaal.nl/fhir/StructureDefinition/request-id": [
+      "AuditEvent"
+    ],
+    "http://koppeltaal.nl/fhir/StructureDefinition/resource-origin": [
+      "ActivityDefinition",
+      "AuditEvent",
+      "CareTeam",
+      "Device",
+      "Endpoint",
+      "Organization",
+      "Patient",
+      "Practitioner",
+      "Subscription",
+      "Task"
+    ],
+    "http://koppeltaal.nl/fhir/StructureDefinition/trace-id": [
+      "AuditEvent"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-AddressInformation.AddressType": [
+      "Patient.address"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-CodeSpecification": [
+      "Patient.address.country",
+      "Patient.gender",
+      "Patient.telecom.system",
+      "Practitioner.gender",
+      "Practitioner.telecom.system"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-Comment": [
+      "Patient.communication",
+      "Patient.telecom",
+      "Practitioner.telecom"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-LanguageProficiency.CommunicationDetails": [
+      "Patient.communication"
+    ],
+    "http://vzvz.nl/fhir/StructureDefinition/instantiates": [
+      "Task"
+    ]
+  }
+}
