@@ -26,4 +26,4 @@ This FHIR IG is populated with the https://simplifier.net/Koppeltaalv2.0 content
 * Files added for publisher
     * input/includes/menu.xml
     * input/pagecontent/index.md
-* For more see [QA](hl7nl.github.io/koppeltaalv2.0-ig/qa.html)
+* For more see [QA](https://hl7nl.github.io/koppeltaalv2.0-ig/qa.html)
