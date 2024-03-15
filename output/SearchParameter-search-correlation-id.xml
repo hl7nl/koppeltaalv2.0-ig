@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="search-correlation-id"/>
+  <meta>
+    <lastUpdated value="2023-07-10T08:36:17.8901013+00:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>KT2_SearchCorrelationId</h2><p>Parameter <code>correlationId</code>:<code>token</code></p><div><p>Search correlationId for tracking audit events</p>
+</div><table class="grid"><tr><td>Resource</td><td><a href="http://hl7.org/fhir/R4/auditevent.html">AuditEvent</a></td></tr><tr><td>Expression</td><td><code>AuditEvent.extension('http://koppeltaal.nl/fhir/StructureDefinition/correlation-id')</code></td></tr><tr><td>Processing Mode</td><td>Normal</td></tr><tr><td>Multiples</td><td><ul><li>multipleAnd: It's up to the server whether the parameter may repeat in order to specify multiple values that must all be true</li><li>multipleOr: It's up to the server whether the parameter can have multiple values (separated by comma) where at least one must be true</li></ul></td></tr></table></div>
+  </text>
+  <url value="http://koppeltaal.nl/fhir/SearchParameter/correlation-id"/>
+  <version value="0.8"/>
+  <name value="KT2_SearchCorrelationId"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-07-10"/>
+  <publisher value="VZVZ"/>
+  <contact>
+    <name value="VZVZ"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.vzvz.nl"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Search correlationId for tracking audit events"/>
+  <code value="correlationId"/>
+  <base value="AuditEvent"/>
+  <type value="token"/>
+  <expression value="AuditEvent.extension('http://koppeltaal.nl/fhir/StructureDefinition/correlation-id')"/>
+  <xpathUsage value="normal"/>
+</SearchParameter>

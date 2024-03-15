@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="search-resource-origin-extension"/>
+  <meta>
+    <versionId value="2"/>
+    <lastUpdated value="2023-01-24T13:07:37.3263512+00:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>KT2_SearchResourceOrigin</h2><p>Parameter <code>resource-origin</code>:<code>reference</code></p><div><p>Search domain resources by resource-origin.</p>
+</div><table class="grid"><tr><td>Resources</td><td><a href="http://hl7.org/fhir/R4/activitydefinition.html">ActivityDefinition</a>, <a href="http://hl7.org/fhir/R4/careteam.html">CareTeam</a>, <a href="http://hl7.org/fhir/R4/device.html">Device</a>, <a href="http://hl7.org/fhir/R4/organization.html">Organization</a>, <a href="http://hl7.org/fhir/R4/patient.html">Patient</a>, <a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a>, <a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a>, <a href="http://hl7.org/fhir/R4/task.html">Task</a>, <a href="http://hl7.org/fhir/R4/auditevent.html">AuditEvent</a>, <a href="http://hl7.org/fhir/R4/endpoint.html">Endpoint</a>, <a href="http://hl7.org/fhir/R4/subscription.html">Subscription</a>, <a href="http://hl7.org/fhir/R4/operationoutcome.html">OperationOutcome</a>, <a href="http://hl7.org/fhir/R4/bundle.html">Bundle</a></td></tr><tr><td>Expression</td><td><code>ActivityDefinition.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | CareTeam.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | Device.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | Organization.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | Patient.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | Practitioner.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | RelatedPerson.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | Task.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | AuditEvent.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | Endpoint.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | Subscription.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin')</code></td></tr><tr><td>Processing Mode</td><td>Normal</td></tr><tr><td>Multiples</td><td><ul><li>multipleAnd: It's up to the server whether the parameter may repeat in order to specify multiple values that must all be true</li><li>multipleOr: It's up to the server whether the parameter can have multiple values (separated by comma) where at least one must be true</li></ul></td></tr></table></div>
+  </text>
+  <url value="http://koppeltaal.nl/fhir/SearchParameter/resource-origin-extension"/>
+  <version value="0.8"/>
+  <name value="KT2_SearchResourceOrigin"/>
+  <status value="active"/>
+  <date value="2023-01-24"/>
+  <publisher value="VZVZ"/>
+  <contact>
+    <name value="VZVZ"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.vzvz.nl"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Search domain resources by resource-origin."/>
+  <code value="resource-origin"/>
+  <base value="ActivityDefinition"/>
+  <base value="CareTeam"/>
+  <base value="Device"/>
+  <base value="Organization"/>
+  <base value="Patient"/>
+  <base value="Practitioner"/>
+  <base value="RelatedPerson"/>
+  <base value="Task"/>
+  <base value="AuditEvent"/>
+  <base value="Endpoint"/>
+  <base value="Subscription"/>
+  <base value="OperationOutcome"/>
+  <base value="Bundle"/>
+  <type value="reference"/>
+  <expression value="ActivityDefinition.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | CareTeam.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | Device.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | Organization.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | Patient.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | Practitioner.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | RelatedPerson.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | Task.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | AuditEvent.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | Endpoint.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin') | Subscription.extension('http://koppeltaal.nl/fhir/StructureDefinition/resource-origin')"/>
+  <xpathUsage value="normal"/>
+</SearchParameter>

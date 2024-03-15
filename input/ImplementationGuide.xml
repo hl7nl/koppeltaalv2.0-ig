@@ -1,0 +1,27 @@
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="kt2"/>
+  <url value="http://koppeltaal.nl/fhir/ImplementationGuide/kt2" />
+  <version value="0.8" />
+  <name value="Koppeltaal Implementation Guide" />
+  <status value="draft" />
+  <description value="Implementation Guide for the profiles" />
+  <packageId value="kt2"/>
+  <fhirVersion value="4.0.1" />
+  <dependsOn>
+    <uri value="https://simplifier.net/packages/nictiz.fhir.nl.r4.nl-core/0.10.0-beta.1"/>
+    <packageId value="nictiz.fhir.nl.r4.nl-core"/>
+    <version value="0.10.0-beta.1"/>
+  </dependsOn>
+  <definition>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+  </definition>
+</ImplementationGuide>

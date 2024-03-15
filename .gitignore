@@ -1,0 +1,6 @@
+temp/
+template/
+input-cache/
+.~lock*
+*.jar
+.index.json

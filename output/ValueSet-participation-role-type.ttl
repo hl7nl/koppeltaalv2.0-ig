@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://koppeltaal.nl/fhir/ValueSet/participation-role-type> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "participation-role-type"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2023-01-23T12:00:00+01:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://dicom.nema.org/resources/ontology/DCM\"><code>http://dicom.nema.org/resources/ontology/DCM</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-110150\">110150</a></td><td>Application</td><td>Audit participant role ID of software application</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-110151\">110151</a></td><td>Application launcher</td><td>Audit participant role ID of software application launcher, i.e., the entity that started or stopped an application</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-110152\">110152</a></td><td>Destination Role ID</td><td>Audit participant role ID of the receiver of data</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-110153\">110153</a></td><td>Source Role ID</td><td>Audit participant role ID of the sender of data</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html\"><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html#v3-RoleClass-PAT\">PAT</a></td><td style=\"color: #cccccc\">patient</td><td>A Role of a LivingSubject (player) as an actual or potential recipient of health care services from a healthcare provider organization (scoper).<br/><br/>*Usage Note:* Communication about relationships between patients and specific healthcare practitioners (people) is not done via scoper. Instead this is generally done using the CareProvision act. This allows linkage between patient and a particular healthcare practitioner role and also allows description of the type of care involved in the relationship.</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://vzvz.nl/fhir/ValueSet/participation-role-type"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "http://vzvz.nl/fhir/ValueSet/participation-role-type" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.8"] ; # 
+  fhir:name [ fhir:v "NlVzvzParticipationRoleType"] ; # 
+  fhir:title [ fhir:v "NlVzvzParticipationRoleType"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-01-23T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "VZVZ"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "VZVZ" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.vzvz.nl" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This FHIR value set is a subset of the http://hl7.org/fhir/ValueSet/participation-role-type value set, containing only the codes used in VZVZ"] ; # 
+  fhir:copyright [ fhir:v "VZVZ"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "110150" ] ;
+         fhir:display [ fhir:v "Application" ]
+       ] [
+         fhir:code [ fhir:v "110151" ] ;
+         fhir:display [ fhir:v "Application launcher" ]
+       ] [
+         fhir:code [ fhir:v "110152" ] ;
+         fhir:display [ fhir:v "Destination Role ID" ]
+       ] [
+         fhir:code [ fhir:v "110153" ] ;
+         fhir:display [ fhir:v "Source Role ID" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleClass"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "PAT" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

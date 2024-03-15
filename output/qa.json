@@ -1,0 +1,19 @@
+{
+  "url" : "http://koppeltaal.nl/fhir/ImplementationGuide/kt2",
+  "name" : "Koppeltaal Implementation Guide",
+  "title" : null,
+  "description" : "Implementation Guide for the profiles",
+  "status" : "draft",
+  "package-id" : "kt2",
+  "ig-ver" : "0.8",
+  "date" : "Fri, 15 Mar, 2024 12:35:38 +0100",
+  "dateISO8601" : "2024-03-15T12:35:38+01:00",
+  "errs" : 62,
+  "warnings" : 39,
+  "hints" : 11,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1716965080
+}

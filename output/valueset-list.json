@@ -1,0 +1,29 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://vzvz.nl/fhir/ValueSet/audit-event-type",
+      "version" : "0.8",
+      "status" : "draft",
+      "name" : "audit-event-type ValueSet",
+      "title" : "audit-event-type ValueSet",
+      "description" : "audit-event-type ValueSet",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/audit-event-type",
+        "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+        "http://dicom.nema.org/resources/ontology/DCM"
+      ]
+    },
+    {
+      "url" : "http://vzvz.nl/fhir/ValueSet/participation-role-type",
+      "version" : "0.8",
+      "status" : "draft",
+      "name" : "NlVzvzParticipationRoleType",
+      "title" : "NlVzvzParticipationRoleType",
+      "description" : "This FHIR value set is a subset of the http://hl7.org/fhir/ValueSet/participation-role-type value set, containing only the codes used in VZVZ",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+        "http://dicom.nema.org/resources/ontology/DCM"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="2f442cd2-0b4d-47a4-b4a4-d579909dca25"/>
+  <meta>
+    <lastUpdated value="2024-03-15T12:35:38.804+01:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://vzvz.nl/fhir/ValueSet/participation-role-type"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <lastUpdated value="2023-01-23T12:00:00+01:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html">codesystem DICOM Controlled Terminology Definitions v01 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html">codesystem RoleClass v3.1.0 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <p>This value set contains 5 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---dicom.nema.org-resources-ontology-DCM-110150"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-110150">110150</a>
+                </td>
+                <td>http://dicom.nema.org/resources/ontology/DCM</td>
+                <td>Application</td>
+                <td>
+                  <div>
+                    <p>Audit participant role ID of software application</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---dicom.nema.org-resources-ontology-DCM-110151"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-110151">110151</a>
+                </td>
+                <td>http://dicom.nema.org/resources/ontology/DCM</td>
+                <td>Application launcher</td>
+                <td>
+                  <div>
+                    <p>Audit participant role ID of software application launcher, i.e., the entity that started or stopped an application</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---dicom.nema.org-resources-ontology-DCM-110152"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-110152">110152</a>
+                </td>
+                <td>http://dicom.nema.org/resources/ontology/DCM</td>
+                <td>Destination Role ID</td>
+                <td>
+                  <div>
+                    <p>Audit participant role ID of the receiver of data</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---dicom.nema.org-resources-ontology-DCM-110153"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-110153">110153</a>
+                </td>
+                <td>http://dicom.nema.org/resources/ontology/DCM</td>
+                <td>Source Role ID</td>
+                <td>
+                  <div>
+                    <p>Audit participant role ID of the sender of data</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-RoleClass-PAT"> </a>  
+                  <a href="http://terminology.hl7.org/5.3.0/CodeSystem-v3-RoleClass.html#v3-RoleClass-PAT">PAT</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-RoleClass</td>
+                <td>patient</td>
+                <td>
+                  <div>
+                    <p>A Role of a LivingSubject (player) as an actual or potential recipient of health care services from a healthcare provider organization (scoper).</p>
+
+                    <p>
+                      <em>Usage Note:</em> Communication about relationships between patients and specific healthcare practitioners (people) is not done via scoper. Instead this is generally done using the CareProvision act. This allows linkage between patient and a particular healthcare practitioner role and also allows description of the type of care involved in the relationship.
+                    </p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://vzvz.nl/fhir/ValueSet/participation-role-type"/>
+        <identifier>
+          <value value="http://vzvz.nl/fhir/ValueSet/participation-role-type"/>
+        </identifier>
+        <version value="0.8"/>
+        <name value="NlVzvzParticipationRoleType"/>
+        <title value="NlVzvzParticipationRoleType"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-01-23T12:00:00+01:00"/>
+        <expansion>
+          <identifier value="urn:uuid:ae6a15fc-86bc-4935-a97d-3d648c91b5f6"/>
+          <timestamp value="2024-03-15T12:36:10+01:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://dicom.nema.org/resources/ontology/DCM|01"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-RoleClass|3.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://dicom.nema.org/resources/ontology/DCM"/>
+            <code value="110150"/>
+            <display value="Application"/>
+          </contains>
+          <contains>
+            <system value="http://dicom.nema.org/resources/ontology/DCM"/>
+            <code value="110151"/>
+            <display value="Application launcher"/>
+          </contains>
+          <contains>
+            <system value="http://dicom.nema.org/resources/ontology/DCM"/>
+            <code value="110152"/>
+            <display value="Destination Role ID"/>
+          </contains>
+          <contains>
+            <system value="http://dicom.nema.org/resources/ontology/DCM"/>
+            <code value="110153"/>
+            <display value="Source Role ID"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+            <code value="PAT"/>
+            <display value="patient"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://vzvz.nl/fhir/ValueSet/audit-event-type"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <versionId value="2"/>
+          <lastUpdated value="2022-09-05T12:00:00+02:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/ValueSet"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html">codesystem DICOM Controlled Terminology Definitions v01 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="http://terminology.hl7.org/5.3.0/CodeSystem-audit-event-type.html">codesystem Audit Event ID v0.5.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="http://terminology.hl7.org/5.3.0/CodeSystem-iso-21089-lifecycle.html">codesystem ISO 21089 2017 Health Record Lifecycle Events v0.2.0 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <p>This value set contains 8 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---dicom.nema.org-resources-ontology-DCM-110100"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-110100">110100</a>
+                </td>
+                <td>http://dicom.nema.org/resources/ontology/DCM</td>
+                <td>Application Activity</td>
+                <td>
+                  <div>
+                    <p>Audit event: Application Activity has taken place</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---dicom.nema.org-resources-ontology-DCM-110114"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-dicom-dcim.html#dicom-dcim-110114">110114</a>
+                </td>
+                <td>http://dicom.nema.org/resources/ontology/DCM</td>
+                <td>User Authentication</td>
+                <td>
+                  <div>
+                    <p>Audit event: User Authentication has been attempted</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-audit-event-type-rest"> </a>  
+                  <a href="http://terminology.hl7.org/5.3.0/CodeSystem-audit-event-type.html#audit-event-type-rest">rest</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/audit-event-type</td>
+                <td>RESTful Operation</td>
+                <td>
+                  <div>
+                    <p>Audit Event: Execution of a RESTful operation as defined by FHIR.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-audit-event-type-hl7-v2"> </a>  
+                  <a href="http://terminology.hl7.org/5.3.0/CodeSystem-audit-event-type.html#audit-event-type-hl7-v2">hl7-v2</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/audit-event-type</td>
+                <td>HL7 v2 Operation</td>
+                <td>
+                  <div>
+                    <p>Audit Event: Execution of an HL7 v2 operation.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-audit-event-type-hl7-v3"> </a>  
+                  <a href="http://terminology.hl7.org/5.3.0/CodeSystem-audit-event-type.html#audit-event-type-hl7-v3">hl7-v3</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/audit-event-type</td>
+                <td>HL7 v3 Operation</td>
+                <td>
+                  <div>
+                    <p>Audit Event: Execution of an HL7 v3 operation as defined by FHIR.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-audit-event-type-document"> </a>  
+                  <a href="http://terminology.hl7.org/5.3.0/CodeSystem-audit-event-type.html#audit-event-type-document">document</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/audit-event-type</td>
+                <td>A Document Operation</td>
+                <td>
+                  <div>
+                    <p>Audit Event: Execution of an operation on a Document (e.g. XDS, CDA, etc).</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-audit-event-type-object"> </a>  
+                  <a href="http://terminology.hl7.org/5.3.0/CodeSystem-audit-event-type.html#audit-event-type-object">object</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/audit-event-type</td>
+                <td>An Operation on other Objects</td>
+                <td>
+                  <div>
+                    <p>Audit Event: Execution of an operation on an Object. For use when a more specific event type is not available.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-iso-21089-lifecycle-transmit"> </a>  
+                  <a href="http://terminology.hl7.org/5.3.0/CodeSystem-iso-21089-lifecycle.html#iso-21089-lifecycle-transmit">transmit</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle</td>
+                <td>Transmit Record Lifecycle Event</td>
+                <td>
+                  <div>
+                    <p>Occurs when an agent causes the system to send record entry content from one (EHR/PHR/other) system to another.</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://vzvz.nl/fhir/ValueSet/audit-event-type"/>
+        <identifier>
+          <use value="official"/>
+          <value value="http://vzvz.nl/fhir/ValueSet/audit-event-type"/>
+        </identifier>
+        <version value="0.8"/>
+        <name value="audit-event-type ValueSet"/>
+        <title value="audit-event-type ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2022-09-05T12:00:00+02:00"/>
+        <expansion>
+          <identifier value="urn:uuid:352808da-1bf3-463b-9c77-57d5b5ed15b6"/>
+          <timestamp value="2024-03-15T12:36:10+01:00"/>
+          <total value="8"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://dicom.nema.org/resources/ontology/DCM|01"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/audit-event-type|0.5.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle|0.2.0"/>
+          </parameter>
+          <contains>
+            <system value="http://dicom.nema.org/resources/ontology/DCM"/>
+            <code value="110100"/>
+            <display value="Application Activity"/>
+          </contains>
+          <contains>
+            <system value="http://dicom.nema.org/resources/ontology/DCM"/>
+            <code value="110114"/>
+            <display value="User Authentication"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/audit-event-type"/>
+            <code value="rest"/>
+            <display value="RESTful Operation"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/audit-event-type"/>
+            <code value="hl7-v2"/>
+            <display value="HL7 v2 Operation"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/audit-event-type"/>
+            <code value="hl7-v3"/>
+            <display value="HL7 v3 Operation"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/audit-event-type"/>
+            <code value="document"/>
+            <display value="A Document Operation"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/audit-event-type"/>
+            <code value="object"/>
+            <display value="An Operation on other Objects"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle"/>
+            <code value="transmit"/>
+            <display value="Transmit Record Lifecycle Event"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

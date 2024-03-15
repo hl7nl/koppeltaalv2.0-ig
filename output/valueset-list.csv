@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://vzvz.nl/fhir/ValueSet/audit-event-type,0.8,draft,,audit-event-type ValueSet,audit-event-type ValueSet,"audit-event-type ValueSet",,"THO,DICOM"
+http://vzvz.nl/fhir/ValueSet/participation-role-type,0.8,draft,,NlVzvzParticipationRoleType,NlVzvzParticipationRoleType,"This FHIR value set is a subset of the http://hl7.org/fhir/ValueSet/participation-role-type value set, containing only the codes used in VZVZ",,"THO (V3),DICOM"

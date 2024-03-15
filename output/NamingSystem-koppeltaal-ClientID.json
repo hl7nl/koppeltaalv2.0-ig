@@ -1,0 +1,35 @@
+{
+  "resourceType" : "NamingSystem",
+  "id" : "koppeltaal-ClientID",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>http://koppeltaal.nl/fhir/NamingSystem/koppeltaal-ClientID</td></tr><tr><td>Version</td><td>0.8</td></tr><tr><td>Name</td><td>KoppeltaalClientID</td></tr><tr><td>Status</td><td>draft</td></tr><tr><td>Definition</td><td><div><p>Identifier system of the Devices as used within Koppeltaal</p>\n</div></td></tr><tr><td>Publisher</td><td>VZVZ</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://vzvz.nl/fhir/NamingSystem/koppeltaal-client-id</td><td>true</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url",
+    "valueUri" : "http://koppeltaal.nl/fhir/NamingSystem/koppeltaal-ClientID"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
+    "valueString" : "0.8"
+  }],
+  "name" : "KoppeltaalClientID",
+  "status" : "draft",
+  "kind" : "identifier",
+  "date" : "2023-01-19T12:00:00.000+01:00",
+  "publisher" : "VZVZ",
+  "contact" : [{
+    "name" : "VZVZ",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.vzvz.nl",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Identifier system of the Devices as used within Koppeltaal",
+  "uniqueId" : [{
+    "type" : "uri",
+    "value" : "http://vzvz.nl/fhir/NamingSystem/koppeltaal-client-id",
+    "preferred" : true
+  }]
+}
